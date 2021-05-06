@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Pet City</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,400,900|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css"> 
+
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <section id="titulo">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="">Pet City</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#precios">Tienda</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">Sucursales</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1>El lugar ideal para los cuidados de tu mascota.</h1>
+                    <button type="button" class="btn btn-dark btn-lg download-button"><i class="fas fa-phone"></i>Llamar</button>
+                    <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fas fa-shopping-cart"></i>Comprar</button>
+                </div>
+                <div class="col-lg-6">
+                    <img class="title-image" src="imagenes_pet/pet_vet.png" alt="pet_vet">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="caracteristicas">
+		<div class="row">
+			<div class="caja-caracteristica col-lg-4">
+				<i class="fas fa-paw fa-4x  icon"></i>							 
+        <h3>Perros</h3>
+        <p>Consultas para caninos.</p>
+			</div>
+			<div class="caja-caracteristica col-lg-4">
+				<i class="fas fa-paw fa-4x  icon"></i>									 
+        <h3>Gatos</h3>
+        <p>Consultas para felinos.</p>
+			</div>
+			<div class="caja-caracteristica col-lg-4">
+				<i class="fas fa-paw fa-4x  icon"></i>									 
+        <h3>Otras Mascotas</h3>
+        <p>Consultas para más mascotas.</p>
+			</div>
+		</div>
+	</section>
+
+    <section id="testimonios">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  		<ol class="carousel-indicators">
+   			 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    		 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  		</ol>
+  		<div class="carousel-inner">
+    		<div class="carousel-item active">
+				<h1>Nuestra misión</h1> 
+				<h4><p>Ayudar a enriquecer y prolongar la relación especial que une a las personas con sus mascotas.</p></h4>
+				<p>&nbsp;</p>
+			</div>
+    		<div class="carousel-item">
+				<h1>Visión</h1>
+				<h4><p>Nuestra visión consiste en liderar el segmento de los alimentos premium para mascotas en todo el mundo, consolidando nuestro prestigio como líder mundial en la nutrición terapéutica de los animales de compañía.
+					En otras palabras, al igual que nuestro fundador el Dr. Mark Morris, estamos convencidos de que la nutrición es esencial para que las mascotas disfruten de una vida larga y sana. Queremos que el mundo sepa que los alimentos para mascotas de Hill's son los mejores que un propietario puede comprar para su mascota.</p></h4>
+				<p>&nbsp;</p>
+			</div>
+			<div class="carousel-item">
+				<h1>Filosofía</h1>
+				<h4><p>Creemos que todos los animales (desde tu mascota hasta los animales de compañía que cuidamos) deben ser amados y cuidados durante toda su vida. Por eso estamos orgullosos de que nuestros alimentos puedan marcar la diferencia en la vida de tu mascota y te reiteramos nuestro compromiso de velar por el bienestar de los animales en todo momento y lugar.</p></h4>
+				<p>&nbsp;</p>
+			</div>
+		</div>
+		 <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		 </a>
+		 <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		 </a>
+		</div>
+    </section>
+
+    <section id="prensa">
+		<img class="logo-prensa" src="imagenes_pet/1.png">
+		<img class="logo-prensa" src="imagenes_pet/2.png">
+		<img class="logo-prensa" src="imagenes_pet/3.png">
+		<img class="logo-prensa" src="imagenes_pet/4.png">
+		<img class="logo-prensa" src="imagenes_pet/5.png">
+		<img class="logo-prensa" src="imagenes_pet/6.png">
+        <img class="logo-prensa" src="imagenes_pet/logo-transforminglives.png">
+    </section>
+
+    <section id="precios">
+        <h2>Tienda</h2>
+        <p>Delivery gratis para todo el país.</p>
+		<div class="row">
+ 			<div class="col-lg-4 col-md-6 precios-col">
+ 				<div class="card">
+					<div class="card-header">
+						<h3>Perros</h3>
+					</div>
+						 <div class="card-body">
+							<img src="imagenes_pet/concentradoperro.jpg" class="card-img-top" alt="concentradoperro">
+							 <h2>$21.99</h2>
+        					 <p>Hills Youthful Vitality 7+</p>
+       						 <p>Nutrición balanceada</p>
+     				  	  	 <p>Presentaciones: 3.5 Libras. 12.5 Libras </p>
+						     <p>&nbsp;</p>
+      				  	     <button type="button" class="btn btn-lg btn-block btn-outline-dark">Comprar</button>
+						</div>
+					</div>
+			 </div>
+			
+			<div class="col-lg-4 col-md-6 precios-col">
+ 				<div class="card">
+					<div class="card-header">	
+       					<h3>Accesorios</h3>
+					</div>
+				 		<div class="card-body">
+							<img src="imagenes_pet/cepillo.png" class="card-img-top" alt="cepillo">
+							<h2>$5.99</h2>
+							<p>Set de cepillo y peine</p>
+							<p>Cerdas sinteticas</p>
+							<p>Antideslizante</p>
+							<p>&nbsp;</p>
+							<button type="button" class="btn btn-lg btn-block btn-outline-dark">Comprar</button>
+						</div>
+				</div>
+			 </div>
+			
+			<div class="col-lg-4 col-md-6 precios-col">
+ 				<div class="card">
+					<div class="card-header">
+						<h3>Gatos</h3>
+					</div>
+						<div class="card-body">
+							<img src="imagenes_pet/concentrado gato.jpg" class="card-img-top" alt="concentrado">
+							<h2>$21.99</h2>
+							<p>Hills adult 7+ 4lb</p>
+							<p>Mejora la salud dental</p>
+							<p>Fibra soluble e insoluble</p>
+							<p>Free Gluten</p>
+							<button type="button" class="btn btn-lg btn-block btn-outline-dark">Comprar</button>
+						</div>
+				</div>
+			 </div>
+    </section>
+
+    <section id="cta">
+        <h3 class="encabezado-cta">Sucursales</h3>
+		<h4><p>Sierra Leona</p></h4>
+		<p>Monte Ararat 98 lomas de chapultepec, Miguel Hidalgo 5552027501</p>
+		<h4><p>Miguel Angel de Quevedo</p></h4>
+		<p>Miguel Angel de Quevedo 739, San Francisco, Coyoacan 5556592356</p>
+		<h4><p>Pilares</p></h4>
+		<p>Pilares 541 Int. 4 Col. Del Valle Sur, Benito Juárez Mega Soriana Pilares 5523460415</p>
+		<img src="imagenes_pet/cintillo-pets.png" class="card-img-top" alt="cintillo-pets">
+    </section>
+
+    <footer id="footer">
+		<i class="fab fa-facebook-f social-icon"></i>
+		<i class="fab fa-twitter social-icon"></i>
+		<i class="fab fa-instagram social-icon"></i>
+		<i class="far fa-envelope social-icon"></i>
+        <p>© Copyright 2021 Pet City</p>
+    </footer>
+
+</body>
+
+</html>
